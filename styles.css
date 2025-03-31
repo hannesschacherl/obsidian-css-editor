@@ -1,0 +1,25 @@
+.css-file-section {
+    margin-bottom: 2em;
+  }
+  
+  .css-editor-block {
+    margin-bottom: 1em;
+  }
+  
+  .css-editor-block code {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+  }
+  
+  .css-editor-input {
+    width: 100%;
+    font-family: var(--font-monospace);
+    font-size: 0.9em;
+    border-radius: 6px;
+    border: 1px solid var(--background-modifier-border);
+    padding: 0.5em;
+    background-color: var(--background-secondary);
+    resize: vertical;
+  }
+  

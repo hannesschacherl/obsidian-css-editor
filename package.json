@@ -1,0 +1,30 @@
+{
+  "name": "css-editor",
+  "version": "1.0.0",
+  "main": "rollup.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/codemirror": "^5.60.15",
+    "@types/sortablejs": "^1.15.8",
+    "rollup": "^4.38.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@codemirror/lang-css": "^6.3.1",
+    "@codemirror/state": "^6.5.2",
+    "@codemirror/view": "^6.36.5",
+    "codemirror": "^6.0.1",
+    "obsidian": "^1.8.7",
+    "sortablejs": "^1.15.6",
+    "tslib": "^2.8.1"
+  }
+}
